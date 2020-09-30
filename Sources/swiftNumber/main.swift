@@ -1,7 +1,7 @@
 import Foundation
 //import _Differentiation
 
-struct myNumber<T: Numeric> {
+public struct myNumber<T: Numeric> {
     var num:T = .zero
 }
 
